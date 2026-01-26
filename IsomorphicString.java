@@ -44,6 +44,5 @@ public class IsomorphicString {
             }
              return result;   
             }
-
     }
 
