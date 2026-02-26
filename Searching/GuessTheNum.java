@@ -6,7 +6,7 @@ public class GuessTheNum {
         System.out.println(("Enter the highest range:"));
         Scanner sc= new Scanner(System.in);
         int n = sc.nextInt();
-        System.out.println("Enter the number to be picked:");
+        System.out.println("Enter the number to be picked between 1 and "+ n + ":");
         int pick = sc.nextInt();
         sc.close();
         int result = guessNumber(n,pick);
